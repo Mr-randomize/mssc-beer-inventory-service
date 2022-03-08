@@ -1,10 +1,9 @@
 package com.iviberberi.beer.inventory.service.services;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.iviberberi.beer.inventory.service.config.JmsConfig;
 import com.iviberberi.beer.inventory.service.domain.BeerInventory;
 import com.iviberberi.beer.inventory.service.repositories.BeerInventoryRepository;
-import com.iviberberi.comon.events.NewInventoryEvent;
+import com.iviberberi.brewery.model.events.NewInventoryEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;

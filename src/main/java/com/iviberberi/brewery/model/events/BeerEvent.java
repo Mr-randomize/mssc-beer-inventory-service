@@ -1,4 +1,4 @@
-package com.iviberberi.comon.events;
+package com.iviberberi.brewery.model.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
