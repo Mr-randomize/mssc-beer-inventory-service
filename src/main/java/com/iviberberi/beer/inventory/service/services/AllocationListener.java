@@ -1,7 +1,7 @@
 package com.iviberberi.beer.inventory.service.services;
 
 import com.iviberberi.beer.inventory.service.config.JmsConfig;
-import com.iviberberi.brewery.model.AllocateOrderResult;
+import com.iviberberi.brewery.model.events.AllocateOrderResult;
 import com.iviberberi.brewery.model.events.AllocateOrderRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

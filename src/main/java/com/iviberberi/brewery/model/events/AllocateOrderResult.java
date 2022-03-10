@@ -1,5 +1,6 @@
-package com.iviberberi.brewery.model;
+package com.iviberberi.brewery.model.events;
 
+import com.iviberberi.brewery.model.BeerOrderDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
